@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body id="container">
+    <h1>Gestión de proyectos</h1>
+
+        Usuario: <input type="text" name="usuario" id="usuario"><br>
+        Password: <input type="password" name="pass" id="pass"><br>
+        <input type="hidden">
+        <button type="button" name="bAlta" id="bAlta">Alta</button>
+        <button type="button" name="bConsulta" id="bConsulta">Consulta</button>
+
+    <h2>Listado de proyectos</h2>
+    <ul id="listadoProyectos">
+
+    </ul>
+    <input type="submit" id="bAnadir" value="Añadir">
+    <input type="submit" id="bBorrar" value="Borrar">
+</body>
+<script src="../jquery-3.5.1.js"></script>
+<script src="jquery.min.js"></script>
+<script src="Modelo/Persona.js"></script>
+<script src="Modelo/Proyecto.js"></script>
+<script src="Controlador/main.js"></script>
+
+</html>
